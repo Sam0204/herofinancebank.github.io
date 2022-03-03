@@ -11,11 +11,11 @@ body{
 .navbar-brand{
   font-family: 'Sansita Swashed',cursive;
   font-size: 2.5rem;
-  color:purple!important;
+  color:rgb(0, 30, 128)!important;
 }
 
 .nav-link{
-  color:purple!important;
+  color:rgb(0, 30, 128)!important;
   font-family: 'Noto Sans JP', sans-serif;
 }
 
