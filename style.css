@@ -27,7 +27,7 @@ html{
           color: rgb(0, 30, 128)!important;
          }
           .nav-link{ 
-              color: purple!important;
+              color: rgb(0, 30, 128)!important;
                font-family: 'Noto Sans JP', sans-serif;
              } 
              .nav-link:hover{ background-color: #f3f1f1;
