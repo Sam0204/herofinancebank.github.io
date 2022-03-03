@@ -4,8 +4,71 @@ html{
  }
   body{
        font-family: 'Roboto', sans-serif;
-      background-color: #eb9320;
+      background-color: #f7f4f1;
      } 
+
+     header {
+        top: 90px;
+        left: 10px;
+        width: 100%;
+        padding: 20px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #d2691e;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 60px;
+      }
+
+      .hero1-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 90vh;
+        margin-top: 40px;
+      }
+      .hero1-img-container {
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        padding-top: 20px;
+      }
+      .hero1-img-container > img {
+        width: 500px;
+      }
+      .hero1-text-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+      }
+      .hero1-text-container > h1 {
+        font-size: 60px;
+        font-weight: 800;
+        margin-bottom: 20px;
+        color: hsl(233, 26%, 24%);
+        line-height: 1.1;
+      }
+      .hero1-text-container > p {
+        color: hsl(240, 43%, 99%);
+        margin-bottom: 15px;
+        font-weight: 700;
+      }
+      .hero1-text-container > button {
+        padding: 12px 28px;
+        border: none;
+        outline-width: 0;
+        color: white;
+        border-radius: 24px;
+        cursor: pointer;
+        font-weight: 400;
+        background-image: linear-gradient(
+          120deg,
+          hsl(0, 85%, 55%),
+          hsl(88, 82%, 29%)
+        );
+      }
+      
      
      
      /* splash screen css starts here */
@@ -19,8 +82,18 @@ html{
      /* splash screen css ends here */ 
      /* navbar css starts here */
      .bg-light{ 
-         background-color: #f2e9e4!important;
+         background-color: #bb744d!important;
      } 
+
+     .navbar{
+        background-image: linear-gradient(
+          120deg,
+          hsl(0, 66%, 77%),
+          hsl(315, 75%, 35%)
+        );
+       
+      }
+
      .navbar-brand{ 
          font-family: 'Sansita Swashed', cursive;
          font-size: 2.5rem;
@@ -126,3 +199,68 @@ html{
                                  .comp-global .map-wrap>img {
                                     width: 100%;
                                 }
+
+                                section {
+                                    position: relative;
+                                    width: 100%;
+                                    min-height: 100vh;
+                                    padding: 100px;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                  }
+                                  
+                                .cust {
+                                    display: flex;
+                                    
+                                    top: 750px;
+                                    right: 200px;
+                                    justify-content: space-between;
+                                    padding: 2px;
+                                  }
+                                  .img_view img {
+                                    width: 400px;
+                                    height: 400px;
+                                  }
+                                  
+                                  .img_tran img {
+                                    width: 400px;
+                                    height: 400px;
+                                  }
+                                  .img_his img {
+                                    width: 400px;
+                                    height: 300x;
+                                  }
+                                  .img_view p {
+                                    font-size: 1.5em;
+                                    text-align: center;
+                                    font-weight: bolder;
+                                  }
+                                  .img_tran p {
+                                    font-size: 1.5em;
+                                    text-align: center;
+                                    font-weight: bolder;
+                                  }
+                                  .img_his p {
+                                    font-size: 1.5em;
+                                    text-align: center;
+                                    font-weight: bolder;
+                                  }
+                                  
+                                  .img_view :hover {
+                                    cursor: pointer;
+                                    width: 500px;
+                                    height: 500px;
+                                  }
+                                  
+                                  .img_tran :hover {
+                                    cursor: pointer;
+                                    width: 500px;
+                                    height: 500px;
+                                  }
+                                  
+                                  .img_his :hover {
+                                    cursor: pointer;
+                                    width: 500px;
+                                    height: 500px;
+                                  }
